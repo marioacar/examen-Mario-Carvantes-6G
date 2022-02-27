@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examen.MainPage">
+
+    <StackLayout>
+        <StackLayout BackgroundColor="#f8b732" HeightRequest="160">
+            <Image Source="https://cdn-icons-png.flaticon.com/512/43/43731.png" 
+                                Aspect="AspectFit" 
+                                Margin="20,17,350,20" 
+                                HeightRequest="60" 
+                                WidthRequest="150">
+
+            </Image>
+
+            <Frame CornerRadius="25" Margin="0,0,0,-20" BackgroundColor="#f8b732" HasShadow="False" HeightRequest="25" VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame CornerRadius="10" HeightRequest="270" Margin="0,-80,0,0" WidthRequest="280" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                <StackLayout>
+                    <Frame  Margin="10" 
+                            CornerRadius="50" 
+                            WidthRequest="50" 
+                            HeightRequest="60" 
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" >
+
+                        <Image  Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="300" 
+                                WidthRequest="200">
+                                
+                        </Image>
+                        
+                    </Frame>
+                    <Label Text="Natasya Anie" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center"></Label>
+                    <Label Text="Teacher" HorizontalTextAlignment="Center"></Label>
+                    <Button Text="Connect" FontSize="Micro" CornerRadius="60" Background="#f8b732" Margin="60,0,60,0" HeightRequest="35"></Button>
+                    <Label Text="Teacher at Suka Makmur High School, good and funny teacher"  HorizontalOptions="CenterAndExpand" Margin="40,0,30,0"></Label>
+                </StackLayout>
+            </Frame>
+            
+        </StackLayout>
+
+        <StackLayout>
+            <Frame CornerRadius="10" HeightRequest="180" Margin="0,10,0,0" WidthRequest="280" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                <StackLayout>
+                    <Frame CornerRadius="10" Margin="-35,-25,-61,0" HeightRequest="14">
+                        <StackLayout>
+                            <Label Text="Class" Margin="10,0,0,0" FontAttributes="Bold" FontSize="Large" TextColor="Black"></Label>
+                            <Image  Source="https://t3.ftcdn.net/jpg/03/20/86/10/360_F_320861052_vUhsu51I98SXn6NtiCv5uFNCBr2OW6HH.jpg" 
+                                Aspect="AspectFit" 
+                                Margin="250,-48,0,0" 
+                                HeightRequest="45" 
+                                WidthRequest="0">
+                            </Image>
+                        </StackLayout>
+                    </Frame>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Frame  Margin="1,0,0,0" 
+                            CornerRadius="50" 
+                            WidthRequest="20" 
+                            HeightRequest="20"
+                            HorizontalOptions="Start" >
+
+                                <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                                </Image>
+
+
+                            </Frame>
+                            <Label HorizontalOptions="Center" Text="Social Science 32 students" VerticalTextAlignment="Center" HeightRequest="0" WidthRequest="100"></Label>
+                            
+                        </StackLayout>
+
+
+                        <StackLayout Orientation="Horizontal">
+                            <Frame  Margin="1,0,0,0" 
+                            CornerRadius="50" 
+                            WidthRequest="20" 
+                            HeightRequest="20"
+                            HorizontalOptions="Start" >
+
+                                <Image  Source="https://www.seekpng.com/png/detail/57-576498_man-face-png-happy-people-face-png.png" 
+                                Aspect="AspectFill" 
+                                Margin="-21" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                                </Image>
+
+
+                            </Frame>
+                            <Label HorizontalOptions="Center" Text="Relationship Advice 26 Students" VerticalTextAlignment="Center" HeightRequest="0" WidthRequest="130"></Label>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+            
+
+        </StackLayout>
+
+        <Frame  CornerRadius="10" Margin="-35,60,-60,0" HeightRequest="70">
+            <StackLayout Orientation="Horizontal">
+                <Frame  Margin="40,0,0,0" 
+                        CornerRadius="50" 
+                        WidthRequest="30" 
+                        HeightRequest="50"
+                        HorizontalOptions="Start" >
+
+                    <Image  Source="https://storage.needpix.com/rsynced_images/4-dots.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-10" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                    </Image>
+
+                </Frame>
+
+
+                <Image  Source="https://www.seekpng.com/png/detail/905-9056717_png-file-svg-chat-icon-white-png.png" 
+                                Aspect="AspectFit" 
+                                Margin="30,0,0,0" 
+                                HeightRequest="50" 
+                                WidthRequest="50">
+
+                </Image>
+
+                <Image  Source="https://png.pngtree.com/png-vector/20190411/ourlarge/pngtree-vector-bell-icon-png-image_927119.jpg" 
+                                Aspect="AspectFit" 
+                                Margin="30,0,0,0" 
+                                HeightRequest="50" 
+                                WidthRequest="50">
+
+                </Image>
+                <Frame  Margin="25,0,0,0" 
+                        CornerRadius="50" 
+                        WidthRequest="30" 
+                        HeightRequest="25"
+                        HorizontalOptions="Start" >
+
+                    <Image  Source="https://icdn.digitaltrends.com/image/digitaltrends/screen-shot-2019-02-15-at-19-16-58-720x720.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-21" 
+                                HeightRequest="50" 
+                                WidthRequest="50">
+
+                    </Image>
+
+                </Frame>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>
