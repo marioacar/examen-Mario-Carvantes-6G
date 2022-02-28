@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="examen.Page1">
+    <StackLayout>
+        <StackLayout BackgroundColor="#f8b732" HeightRequest="160">
+            <Label Text="Classroom" Margin="10,20,0,0" TextColor="#d9d8d5" FontSize="Title"></Label>
+            <Label Text="Your Assingnment" Margin="10,20,0,0" TextColor="#d9d8d5" FontSize="Medium"></Label>
+            <Frame CornerRadius="25" Margin="0,0,0,-20" BackgroundColor="#f8b732" HasShadow="False" HeightRequest="25" VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="Fill" >
+            <StackLayout  >
+                <Frame CornerRadius="10" HeightRequest="80" Margin="10,-30,0,0" WidthRequest="180" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                    <Frame  Margin="-10,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="10" 
+                            HeightRequest="10"
+                            HorizontalOptions="Start" >
+
+                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                        </Image>
+
+
+                    </Frame>
+                </Frame>
+            </StackLayout>
+            <StackLayout  >
+                <Frame CornerRadius="10" HeightRequest="80" Margin="10,-30,0,0" WidthRequest="180" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" >
+                    <Frame  Margin="-10,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="10" 
+                            HeightRequest="10"
+                            HorizontalOptions="Start" >
+
+                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                        </Image>
+
+
+                    </Frame>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+        
+        
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Fill" Margin="0,60,0,0">
+            <Label Text="My Class" Margin="17,0,0,0" TextColor="Black" FontSize="Title"></Label>
+        </StackLayout>
+
+        <StackLayout  Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="Fill" Spacing="-10">
+            <Frame CornerRadius="15" Margin="10,0,0,0" WidthRequest="140" HeightRequest="170">
+                <StackLayout >
+                    <Frame  Margin="-10,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                        </Image>
+
+
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-40,-30,0,0">
+                        <Label Text="Xin Wan"></Label>
+                        <Label Text="Teacher" BackgroundColor="Yellow" TextColor="Red"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Mathematics" FontAttributes="Bold" TextColor="Black" FontSize="Large" Margin="-10"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-100,40,0,0">
+                        <Frame  Margin="90,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                        
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                        
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            
+            <Frame CornerRadius="15" Margin="28,0,0,0" WidthRequest="140" HeightRequest="170">
+                <StackLayout>
+                    <Frame  Margin="-10,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                        </Image>
+                        
+
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-75,-30,0,0">
+                        <Label Text="Mark"></Label>
+                        <Label Text="Teacher" BackgroundColor="Yellow" TextColor="Red"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Science" FontAttributes="Bold" TextColor="Black" FontSize="Large" Margin="-10"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-100,40,0,0">
+                        <Frame  Margin="90,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            
+        </StackLayout>
+
+
+        <StackLayout  Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="Fill" Spacing="-10">
+            <Frame CornerRadius="15" Margin="10,0,0,0" WidthRequest="140" HeightRequest="170">
+                <StackLayout>
+                    <Frame  Margin="-10,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                        </Image>
+
+
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-40,-30,0,0">
+                        <Label Text="Edward L"></Label>
+                        <Label Text="Teacher" BackgroundColor="Yellow" TextColor="Red"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Mathematics" FontAttributes="Bold" TextColor="Black" FontSize="Large" Margin="-10"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-100,40,0,0">
+                        <Frame  Margin="90,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="15" Margin="28,0,0,0" WidthRequest="140" HeightRequest="170">
+                <StackLayout>
+                    <Frame  Margin="-10,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                        <Image  Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                        </Image>
+
+
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-40,-30,0,0">
+                        <Label Text="Natasya"></Label>
+                        <Label Text="Teacher" BackgroundColor="Yellow" TextColor="Red"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Mathematics" FontAttributes="Bold" TextColor="Black" FontSize="Large" Margin="-10"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-100,40,0,0">
+                        <Frame  Margin="90,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+
+                        <Frame  Margin="0,-15,0,40" 
+                            CornerRadius="50" 
+                            WidthRequest="5" 
+                            HeightRequest="5"
+                            HorizontalOptions="Start" >
+
+                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-20" 
+                                HeightRequest="10" 
+                                WidthRequest="10">
+
+                            </Image>
+
+
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+
+
+
+
+
+
+
+
+        <Frame  CornerRadius="10" Margin="-35,-30,-60,0" HeightRequest="60">
+            <StackLayout Orientation="Horizontal">
+                <Frame  Margin="40,0,0,0" 
+                        CornerRadius="50" 
+                        WidthRequest="30" 
+                        HeightRequest="50"
+                        HorizontalOptions="Start" >
+
+                    <Image  Source="https://storage.needpix.com/rsynced_images/4-dots.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-10" 
+                                HeightRequest="100" 
+                                WidthRequest="100">
+
+                    </Image>
+
+                </Frame>
+
+
+                <Image  Source="https://www.seekpng.com/png/detail/905-9056717_png-file-svg-chat-icon-white-png.png" 
+                                Aspect="AspectFit" 
+                                Margin="30,0,0,0" 
+                                HeightRequest="50" 
+                                WidthRequest="50">
+
+                </Image>
+
+                <Image  Source="https://png.pngtree.com/png-vector/20190411/ourlarge/pngtree-vector-bell-icon-png-image_927119.jpg" 
+                                Aspect="AspectFit" 
+                                Margin="30,0,0,0" 
+                                HeightRequest="50" 
+                                WidthRequest="50">
+
+                </Image>
+                <Frame  Margin="25,0,0,0" 
+                        CornerRadius="50" 
+                        WidthRequest="30" 
+                        HeightRequest="25"
+                        HorizontalOptions="Start" >
+
+                    <Image  Source="https://icdn.digitaltrends.com/image/digitaltrends/screen-shot-2019-02-15-at-19-16-58-720x720.jpg" 
+                                Aspect="AspectFill" 
+                                Margin="-21" 
+                                HeightRequest="50" 
+                                WidthRequest="50">
+
+                    </Image>
+
+                </Frame>
+            </StackLayout>
+        </Frame>
+
+
+
+    </StackLayout>
+</ContentPage>
