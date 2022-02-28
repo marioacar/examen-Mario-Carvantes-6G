@@ -11,14 +11,14 @@
 
         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="Fill" >
             <StackLayout  >
-                <Frame CornerRadius="10" HeightRequest="80" Margin="10,-30,0,0" WidthRequest="180" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                <Frame CornerRadius="10" HeightRequest="80" Margin="0,-30,0,0" WidthRequest="180" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
                     <Frame  Margin="-10,-15,0,40" 
                             CornerRadius="50" 
                             WidthRequest="10" 
                             HeightRequest="10"
                             HorizontalOptions="Start" >
 
-                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                        <Image  Source="https://www.trecebits.com/wp-content/uploads/2019/02/Persona-1-445x445.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="100" 
@@ -26,11 +26,21 @@
 
                         </Image>
 
-
                     </Frame>
+                    
                 </Frame>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="4,-110,-60,0">
+                    <Label Text="Severus Snape"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="-40,-10,-60,0">
+                    <Label Text="Physic"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="18,10,0,0">
+                    <Label Text="Submit your assingment here, make sure that you do the assingment .."></Label>
+                </StackLayout>
             </StackLayout>
-            <StackLayout  >
+            
+            <StackLayout  Margin="10,0,-150,0">
                 <Frame CornerRadius="10" HeightRequest="80" Margin="10,-30,0,0" WidthRequest="180" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" >
                     <Frame  Margin="-10,-15,0,40" 
                             CornerRadius="50" 
@@ -38,9 +48,9 @@
                             HeightRequest="10"
                             HorizontalOptions="Start" >
 
-                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                        <Image  Source="https://i.pinimg.com/originals/cf/c1/d8/cfc1d8b69811d4bacb1377e39d5a74c9.jpg" 
                                 Aspect="AspectFill" 
-                                Margin="-20" 
+                                Margin="-19" 
                                 HeightRequest="100" 
                                 WidthRequest="100">
 
@@ -49,11 +59,13 @@
 
                     </Frame>
                 </Frame>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="30,-65,0,0">
+                    <Label Text="Submit your assingment here, make sure that you do the assingment .."></Label>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
         
         
-
         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" Margin="0,60,0,0">
             <Label Text="My Class" Margin="17,0,0,0" TextColor="Black" FontSize="Title"></Label>
         </StackLayout>
@@ -67,7 +79,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                        <Image  Source="https://cambiardeimagen.files.wordpress.com/2013/03/moda-masculina-lentes-cara-hombre-carametria-caramorfoligia-consultoria-de-imagen.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -91,7 +103,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -124,7 +136,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://miro.medium.com/max/448/1*L_NKt_JPpIBLVmVBn3P9Mg.jpeg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -147,7 +159,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                        <Image  Source="https://miro.medium.com/max/448/1*L_NKt_JPpIBLVmVBn3P9Mg.jpeg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="100" 
@@ -171,7 +183,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -204,7 +216,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://cdnb.20m.es/sites/112/2019/04/cara22-620x620.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -230,7 +242,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                        <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                        <Image  Source="https://cdnb.20m.es/sites/112/2019/04/cara22-620x620.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="100" 
@@ -270,7 +282,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://miro.medium.com/max/448/1*L_NKt_JPpIBLVmVBn3P9Mg.jpeg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -287,7 +299,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -332,7 +344,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://cdnb.20m.es/sites/112/2019/04/cara22-620x620.jpg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -365,7 +377,7 @@
                             HeightRequest="5"
                             HorizontalOptions="Start" >
 
-                            <Image  Source="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/kindchenschema/kindfrau_b/kindfrau_b_90_gr.jpg" 
+                            <Image  Source="https://miro.medium.com/max/448/1*L_NKt_JPpIBLVmVBn3P9Mg.jpeg" 
                                 Aspect="AspectFill" 
                                 Margin="-20" 
                                 HeightRequest="10" 
@@ -381,25 +393,18 @@
         </StackLayout>
 
 
-
-
-
-
-
-
-
         <Frame  CornerRadius="10" Margin="-35,-30,-60,0" HeightRequest="60">
             <StackLayout Orientation="Horizontal">
                 <Frame  Margin="40,0,0,0" 
                         CornerRadius="50" 
                         WidthRequest="30" 
-                        HeightRequest="50"
+                        HeightRequest="60"
                         HorizontalOptions="Start" >
 
                     <Image  Source="https://storage.needpix.com/rsynced_images/4-dots.jpg" 
                                 Aspect="AspectFill" 
-                                Margin="-10" 
-                                HeightRequest="100" 
+                                Margin="-15" 
+                                HeightRequest="10" 
                                 WidthRequest="100">
 
                     </Image>
@@ -410,7 +415,7 @@
                 <Image  Source="https://www.seekpng.com/png/detail/905-9056717_png-file-svg-chat-icon-white-png.png" 
                                 Aspect="AspectFit" 
                                 Margin="30,0,0,0" 
-                                HeightRequest="50" 
+                                HeightRequest="100" 
                                 WidthRequest="50">
 
                 </Image>
@@ -439,7 +444,6 @@
                 </Frame>
             </StackLayout>
         </Frame>
-
 
 
     </StackLayout>
